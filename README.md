@@ -50,3 +50,8 @@ rank가 0이 되면 결국 한 epoch을 다 학습하였다고 볼 수 있고 �
         torch.save(model.module.backbone.state_dict(),
                    args.checkpoint_dir / 'resnet50.pth')
 ```
+
+[DDP all reduce](https://blahblahlab.tistory.com/205)
+
+
+
