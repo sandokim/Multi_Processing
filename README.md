@@ -53,5 +53,5 @@ rank가 0이 되면 결국 한 epoch을 다 학습하였다고 볼 수 있고 �
 
 [DDP all reduce](https://blahblahlab.tistory.com/205)
 
-
+![Data_loader](./images/all_reduce.jpg)
 
