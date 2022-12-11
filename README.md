@@ -13,7 +13,7 @@ ex) batch size  = 32이고 world size가 8이면
 
 rank는 8이고 rank는 [0,1,2,3,4,5,6,7]이 된다.
 
-rank가 0이 되면 결국 한 epoch을 다 학습하였다고 볼 수 있고 아래 SSL code snippet(Barlow Twins)에서도 확인해볼 수 있다.
+rank가 0이 되면 결국 한 epoch을 다 학습하였다고 볼 수 있고 모델파라미터를 저장한다. 아래 SSL code snippet(Barlow Twins)에서도 확인해볼 수 있다.
 
 
 ```python
